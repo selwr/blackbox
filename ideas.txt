@@ -1,0 +1,33 @@
+## Ideas
+
+plot time series (grayscale diagrammatic graph) as a 3D surface
+do the same for sub-band vs phase
+
+plot a plane of best fit
+(tangential to global maxima, but it might still work with normal PoBF; being skewed in the correct direction we want it to
+be, in relation to the data direction - seeing that the difference in flux intensity between noise and actual pulsars
+is so large)
+
+find planar gradient of the two planes
+
+if the gradient is in the same direction (ie both sloped towards negative z, giving that phase is x and flux density
+is y), then check the direction they are sloped towards (ie negative/positive z)
+
+if directions are the same, and that they are both sloped negative z, they are then more likely to be pulsars,
+showing characteristic parallel 'lines' down each of the graphs
+
+we can then cross-reference these ideas with the DM position (ie where the *single* max is) and if it is a peak or not
+
+then cross-reference with single peak/not a peak p and p-dot graphs
+
+then with p, p-dot, f and f-dot plot and see if 'red' area exists and is restricted to one area
+
+if all of the characteristics do not seem as though they indicate a pulsar, these are likely to be RFI so can be
+taken out of the candidates pool immediately, saving lots of time, leaving behind lone pulsars and binary pulsars
+-------------------------------
+find big O cost
+
+find maths for raw data (phase/sub-band and phase/time) to surface
+and then maths for plane of best fit (least cubes regression)
+and then maths for planar gradient (including direction)
+and then mention about current methods for plotting other graphs from raw data
